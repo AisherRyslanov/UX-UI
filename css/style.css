@@ -1,0 +1,659 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    background: black;
+}
+#header{
+    margin-top: 10px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+#uiUx{
+    background: black;
+    margin-top: -50px;
+}
+.header {;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 40px;
+    background: rgba(121, 116, 116, 0.1);
+    border: 3px solid #FF0000;
+    backdrop-filter: blur(7.5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 12px;
+}
+
+.tell  a{
+    width: 209px;
+    height: 46px;
+    color: white;
+    font-size: 24px;
+    border: 3px solid #FFFFFF;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+}
+
+.UX {
+    color: white;
+    font-size: 150px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+}
+.uxDesk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("../img/Ellipse 2 (1).svg") no-repeat center/cover;
+    padding: 300px 0;
+
+}
+.uiUx{
+    display: flex;
+    justify-content: center;
+
+}
+.img9{
+top: 400px;
+    position: absolute;
+    left: 0;
+    margin-top: 80px;
+}
+.img10{
+    position: absolute;
+    right: 0;
+    top: 300px;
+    margin-top: 00px;
+}
+.UxTitle{
+    font-weight: 700;
+    font-size: 144px;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+.UxLine{
+    height: 1px;
+    width: 400px;
+    background: #FF0000;
+}
+.UiTitle{
+    color: white;
+    font-size: 33px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.Uxbtn{
+    font-weight: 700;
+    font-size: 14px;
+    background: white;
+    color: black;
+    border-radius: 27px;
+    padding: 10px 15px;
+    margin-left: 20px;
+    transition: 1s;
+}
+.Uxbtn:hover{
+    background: black;
+    color: white;
+}
+.UxDescription{
+    margin: 20px 0 0 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin-left: -60px;
+}
+.werh{
+    width: 73px;
+    height: 73px;
+    color: #FFFFFF;
+    background: #FF0000;
+    border-radius: 50%;
+}
+.ch{
+    width: 312.03px;
+    height: 1px;
+    background: #EA0202;
+    margin-top: 0px;
+    margin-left: 30px;
+
+}
+.ch2{
+    position: absolute;
+    width: 180px;
+    height: 1px;
+    background: #EA0202;
+    margin-top: -0px;
+    margin-left: 550px;
+}
+#Onas{
+    margin-top: -10px;
+}
+.Onas h1{
+    font-family: 'Fira Sans';
+    width: 121px;
+    height: 48px;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    margin-top: -30px;
+    margin-left: 570px;
+}
+.Onas p{
+    font-family: 'Fira Sans';
+    width: 1159px;
+    height: 116px;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: white;
+    margin-left: 50px;
+}
+
+
+.img{
+    margin-left: 90px;
+    margin-top: 40px;
+}
+.img h2{
+    margin-left: 60px;
+    width: 78px;
+    height: 29px;
+    font-family: 'Fira Sans';
+    font-size: 24px;
+    letter-spacing: 0.065em;
+
+    color: #FFFFFF;
+}
+.img2{
+    margin-top: -220px;
+    margin-left: 500px;
+}
+.img2 h2{
+    width: 102px;
+    height: 29px;
+    font-family: 'Fira Sans';
+    font-size: 24px;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+.img3{
+    margin-top: -230px;
+    margin-left: 950px;
+}
+.img3 h2{
+    width: 112px;
+    height: 29px;
+    width: 112px;
+    height: 29px;
+    font-size: 24px;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+.ch3{
+     width: 94.09px;
+     height: 1px;
+     background: #EA0202;
+    margin-top: -0px;
+    margin-left: 140px;
+ }
+.ch4{
+    width: 121px;
+    height: 1px;
+    background: #EA0202;
+    margin-top: 0px;
+    margin-left: 535px;
+}
+.ch5{
+    width: 121px;
+    height: 1px;
+    background: #EA0202;
+    margin-top: 0px;
+    margin-left: 990px;
+}
+.ch6{
+    width: 232px;
+    height: 0px;
+    background: #EA0202;
+    margin-top: 0px;
+    margin-left: 220px;
+}
+.ch7{
+    width: 232px;
+    height: 0px;
+    background: #EA0202;
+    margin-top: 0px;
+}
+.rediz h2{
+    width: 163px;
+    height: 36px;
+    font-family: 'Fira Sans';
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+.rediz p{
+    width: 548px;
+    height: 88px;
+    font-family: 'Fira Sans';
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.diz h2{
+    width: 123px;
+    height: 36px;
+    font-family: 'Fira Sans';
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    margin-left: 900px;
+    margin-top: -150px;
+}
+.diz p{
+    width: 572px;
+    height: 66px;
+    font-family: 'Fira Sans';
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    margin-left: 670px;
+}
+.btn2{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    background: #FFFFFF;
+    border-radius: 27px;
+    width: 160px;
+    height: 40px;
+    margin-left: 550px;
+    margin-top: 120px;
+    transition: 1s;
+}
+.btn2:hover{
+    background: #EA0202;
+    color: white;
+}
+.pr{
+    margin-top: -350px;
+}
+
+.ch8{
+    position: absolute;
+    width: 364px;
+    height: 1px;
+    background: #EA0202;
+    margin-top: -0px;
+    margin-left: 440px;
+}
+.Portfol h1{
+    width: 238px;
+    height: 48px;
+    font-family: 'Fira Sans';
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    margin-top: -330px;
+    margin-left: 500px;
+}
+.Portfol{
+margin-top: 800px;
+}
+.img5{
+    background: url("../img/Ellipse 7 (1).svg");
+    background: #D81010;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.P1{
+    width: 572px;
+    height: 66px;
+    font-family: 'Fira Sans';
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    margin-top: -250px;
+    margin-left: 700px;
+}
+.P1 button{
+    width: 206px;
+    height: 57px;
+    font-family: 'Fira Sans';
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    background: #FF0000;
+    border-radius: 51px;
+    margin-top: 50px;
+}
+.P2 {
+    width: 572px;
+    height: 66px;
+    font-family: 'Fira Sans';
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    margin-top: 450px;
+}
+.P2 button {
+    width: 206px;
+    height: 57px;
+    font-family: 'Fira Sans';
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    background: #FF0000;
+    border-radius: 51px;
+    margin-top: 50px;
+}
+.img6{
+
+    margin-left: 900px;
+    margin-top: -200px;
+}
+.img7{
+    margin-top: 100px;
+}
+.P3{
+    width: 572px;
+    height: 66px;
+    font-family: 'Fira Sans';
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    margin-top: -250px;
+    margin-left: 700px;
+}
+.P3 button {
+    width: 206px;
+    height: 57px;
+    font-family: 'Fira Sans';
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    background: #FF0000;
+    border-radius: 51px;
+    margin-top: 50px;
+}
+.P4 {
+    width: 572px;
+    height: 66px;
+    font-family: 'Fira Sans';
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    margin-top: 450px;
+}
+.P4 button {
+    width: 206px;
+    height: 57px;
+    font-family: 'Fira Sans';
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    background: #FF0000;
+    border-radius: 51px;
+    margin-top: 50px;
+}
+.img8{
+    margin-left: 900px;
+    margin-top: -200px;
+}
+.btn3{
+    width: 176px;
+    height: 44px;
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    letter-spacing: 0.065em;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 27px;
+    margin-top: 50px;
+    margin-left: 600px;
+    transition: 1s;
+}
+.btn3:hover{
+    background: #EA0202;
+    color: white;
+}
+.ruca5{
+    margin-top: -300px;
+    margin-left: -100px;
+}
+.ruca6{
+    margin-top: -750px;
+    margin-left: 680px;
+}
+.ruca3{
+    position: absolute;
+    right: 840px;
+    margin-top: -150px;
+}
+.ruca4{
+    position: absolute;
+    left: 870px;
+    margin-top: -150px;
+}
+.ch9{
+    width: 250px;
+    height: 1px;
+    background: #EA0202;
+    margin-top: -150px;
+    margin-left: 550px;
+}
+.Otz h2{
+    width: 163px;
+    height: 48px;
+    font-family: 'Fira Sans';
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    margin-left: 580px;
+}
+.imag{
+    margin-top: 90px;
+}
+.image2{
+    margin-top: -460px;
+    margin-left: 500px;
+}
+.image1{
+    margin-top: -500px;
+    margin-left: 100px;
+}
+.Wl{
+    width: 67px;
+    height: 67px;
+    background: #FF0000;
+    color: white;
+    border-radius: 50%;
+    margin-left: -1100px;
+}
+.Wp{
+    width: 67px;
+    height: 67px;
+    color: white;
+    background: #FF0000;
+    border-radius: 50%;
+    margin-left: 1000px;
+}
+.T1{
+    width: 12px;
+    height: 12px;
+    background: #EA0202;
+    filter: blur(2px);
+    margin-left: 570px;
+}
+.T2{
+    width: 19px;
+    height: 19px;
+    background: #FF0000;
+    border-radius: 50%;
+    margin-left: 600px;
+    margin-top: -15px;
+}
+.T3{
+    width: 12px;
+    height: 12px;
+    background: #EA0202;
+    filter: blur(2px);
+    margin-left: 635px;
+    margin-top: -15px;
+}
+.Otz button{
+    width: 176px;
+    height: 44px;
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    color: black;
+    background: #FFFFFF;
+    border-radius: 27px;
+    margin-left: 550px;
+    margin-top: 30px;
+}
+.ch10{
+    width: 537px;
+    height: 1px;
+    background: #EA0202;
+    margin-top: 150px;
+    margin-left: 350px;
+}
+.Wop h2{
+    width: 504px;
+    height: 48px;
+    font-family: 'Fira Sans';
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    margin-left: 350px;
+}
+.name{
+    width: 39px;
+    height: 21px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    margin-left: 220px;
+}
+.ivan{
+    box-sizing: border-box;
+    width: 370px;
+    height: 75px;
+    background: #FFFFFF;
+    border: 2px solid #FF0000;
+    border-radius: 7px;
+    margin-top: 100px;
+    margin-left: 190px;
+}
+.call{
+    width: 158px;
+    height: 21px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    margin-left: 670px;
+    margin-top: -100px;
+}
+.number{
+    box-sizing: border-box;
+    width: 370px;
+    height: 75px;
+    background: #FFFFFF;
+    border: 2px solid #FF0000;
+    border-radius: 7px;
+    margin-left: 650px;
+}
+.soo{
+    width: 162px;
+    height: 21px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.text{
+    box-sizing: border-box;
+    width: 812px;
+    height: 133px;
+    background: #FFFFFF;
+    border: 2px solid #FF0000;
+    border-radius: 7px;
+    margin-left: 190px;
+}
+.otw{
+    width: 126px;
+    height: 28px;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 190px;
+}
+.otpr{
+    width: 188px;
+    height: 54px;
+    background: #FFFFFF;
+    border-radius: 7px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #000000;
+    margin-top: 150px;
+    margin-left: 190px;
+    transition: 1s;
+}
+.otpr:hover{
+    background: #EA0202;
+    color: white;
+}
+.na{
+    margin-top: 50px;
+    margin-left: 300px;
+}
